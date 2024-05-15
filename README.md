@@ -138,4 +138,4 @@ To use the Spoonacular Food API, an API key is required to authorise requests. T
 X-Spoonacular-API-Key: your_api_key
 ```
 > [!NOTE]
-> Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
+> Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
