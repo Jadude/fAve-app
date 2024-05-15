@@ -1,4 +1,38 @@
+# Logs
+
+*.log
+npm-debug.log*
+
+# Node
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# SASS
+
 .sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+
+# JSON
+
+package-lock.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Other
+
+.test/
+.solution

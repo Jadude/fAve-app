@@ -1,0 +1,9 @@
+@import "normalize";
+@import "variables";
+@import "functions";
+
+body {
+  background-color: $color-background;
+  font-family: $text-font;
+  font-size: $base-font-size;
+}
