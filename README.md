@@ -17,10 +17,10 @@ save money through efficient use of products.
 
 
 
-**The development of the application used:**
-* SCSS
-* React.JS
-* Babel
+> **The development of the application used:**
+> * SCSS
+> * React.JS
+> * Babel
 
 
 
