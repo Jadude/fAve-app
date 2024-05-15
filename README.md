@@ -15,10 +15,13 @@ save money through efficient use of products.
 
 
 
+
+
 **The development of the application used:**
 * SCSS
 * React.JS
 * Babel
+
 
 
 ## Installation instructions:
@@ -84,6 +87,8 @@ In future:
 Automatic recipe search: The fAve app automatically searches for recipes that can be prepared with the products available in the fridge. Simply select the products and fAve will suggest matching recipes.
 Food consumption analysis: fAve offers a food consumption analysis function that helps you track which products are consumed most often, which can help you plan your shopping and reduce food waste.
 
+
+
 ## FAQ:
 
 > Q1: How can I add new products to my fridge in the fAve app?
@@ -97,6 +102,8 @@ Answer: Currently no. For the time being, simply press the "fAve!" button, which
 > Q3: Can I share recipes from the fAve app with other users?
 
 Answer: Currently no.  In the future, the fAve app will allow recipes to be shared with other users.
+
+
 
 ## Spoonacular Food API Documentation:
 
