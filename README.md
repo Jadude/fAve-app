@@ -125,8 +125,7 @@ The Spoonacular Food API is an advanced food data management tool, offering a wi
    - Expected response: A list of recipes that meet the specified criteria. 
 
 
-
-2. Retrieving food product information:*
+2. Retrieving food product information:
    - GET /food/products/{id} 
    -  Description: Retrieves information about a specific food product based on its identifier. 
    - Query parameters:
