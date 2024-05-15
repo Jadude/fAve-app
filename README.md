@@ -15,7 +15,7 @@ save money through efficient use of products.
 
 
 
-## The development of the application used:
+**The development of the application used:**
 * SCSS
 * React.JS
 * Babel
