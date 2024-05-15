@@ -113,17 +113,18 @@ The Spoonacular Food API is an advanced food data management tool, offering a wi
 
 ### Endpoints available within the Spoonacular Food API:
 
+
 *Recipe search:*
 
 GET /recipes/search 
 
 Description: Searches for recipes based on specific criteria such as ingredients, culinary categories, diet types and more. 
 
-Query parameters:/
-query: (optional) Search query, e.g. recipe name./
-cuisine: (optional) Cuisine category, e.g. Italian, French./
-diet: (optional) Type of diet, e.g. vegetarian, vegan./
-number: (optional) Number of recipes to be returned./
+Query parameters:
+-query: (optional) Search query, e.g. recipe name.
+-cuisine: (optional) Cuisine category, e.g. Italian, French.
+-diet: (optional) Type of diet, e.g. vegetarian, vegan.
+-number: (optional) Number of recipes to be returned.
 
 Expected response: A list of recipes that meet the specified criteria. 
 
@@ -136,7 +137,7 @@ GET /food/products/{id}
 Description: Retrieves information about a specific food product based on its identifier. 
 
 Query parameters:/
-id: (required) The identifierof the food product. 
+-id: (required) The identifierof the food product. 
 
 Expected response: Specific information about the food product, such as name, nutrients, allergen information, etc. 
  
