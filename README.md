@@ -1,5 +1,5 @@
 # fAve
-**Save your food from ending up in the rubbish!**
+## **Save your food from ending up in the rubbish!**
 
 fAve is a useful app that helps to effectively manage the contents of the fridge in order to use up products before their best-before date. This app
 will inform you of food products that are approaching their expiry date, and will then search and suggest recipes containing the product to use, thanks to access to a recipe database. With fAve:
@@ -7,15 +7,15 @@ save time on meal planning and shopping,
 minimise food waste
 save money through efficient use of products.
 
-Every day, 3.5 million tonnes of food are wasted worldwide. 
+**Every day, 3.5 million tonnes of food are wasted worldwide.** 
 
-You can make a difference!
+*You can make a difference!*
 
-***Try it for yourself!***
+## ***Try it for yourself!***
 
 
 
-The development of the application used:
+## The development of the application used:
 SCSS
 React.JS
 Babel
@@ -52,6 +52,7 @@ After installing the dependencies, you can launch the project. In the terminal, 
 npm start
 ```
 This will start the FreshFridge application in developer mode. Then open a web browser and navigate to http://localhost:3000 to use the application.
+
 
 
 After following the steps above, the fAve project should be ready to use on your device!
@@ -123,9 +124,9 @@ id: (required) The identifier of the food product.
 Expected response: Specific information about the food product, such as name, nutrients, allergen information, etc.
 
 
-###Authorisation and security:
+### Authorisation and security:
 To use the Spoonacular Food API, an API key is required to authorise requests. The API key must be included in the query header as an authorisation parameter.
-
+```
 X-Spoonacular-API-Key: your_api_key
-
-###Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
+```
+### Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
