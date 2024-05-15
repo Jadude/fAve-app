@@ -1,4 +1,4 @@
-fAve
+# fAve
 Save your food from ending up in the rubbish!
 
 fAve is a useful app that helps to effectively manage the contents of the fridge in order to use up products before their best-before date. This app
@@ -19,14 +19,14 @@ React.JS
 Babel
 
 
-Installation instructions:
+## Installation instructions:
 
-Cloning the repository:
+### Cloning the repository:
 Clone the fAve repository to your local machine using the following command in terminal:
 
-
+```
 git clone https://github.com/Jadude/fAve-app.git
-
+```
 
 Installing dependencies:
 Navigate to the fAve project directory and then install all necessary dependencies using the npm package manager. In the terminal, type:
@@ -85,13 +85,13 @@ Food consumption analysis: fAve offers a food consumption analysis function that
 
  FAQ:
 
-Q1: How can I add new products to my fridge in the fAve app?
+> Q1: How can I add new products to my fridge in the fAve app?
 Answer: To add new products to your fridge in the fAve app, log in to your account and click the 'Add product' button . Then enter the product name and expiry date. 
 
-Q2: Can I set notifications in the fAve app when products are about to expire?
+> Q2: Can I set notifications in the fAve app when products are about to expire?
 Answer: Currently no. For the time being, simply press the "fAve!" button, which will display products with an expiry date in 2 days. In the future, the fAve app will offer a function to notify you when products are about to expire. When you add a product to fAve, you will be able to set up a notification to receive email or push notifications on your mobile device the day before the product expiry date.
 
-Q3: Can I share recipes from the fAve app with other users?
+> Q3: Can I share recipes from the fAve app with other users?
 Answer: Currently no.  In the future, the fAve app will allow recipes to be shared with other users.
 
 Spoonacular Food API Documentation:
