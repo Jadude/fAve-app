@@ -60,7 +60,8 @@ This will start the FreshFridge application in developer mode. Then open a web b
 
 After following the steps above, the fAve project should be ready to use on your device!
 
-*If any problems or questions arise during installation, don't hesitate to contact me. I will be happy to help!*
+> [!TIP]
+> If any problems or questions arise during installation, don't hesitate to contact me. I will be happy to help!*
 
 
 
@@ -113,27 +114,28 @@ The Spoonacular Food API is an advanced food data management tool, offering a wi
 ### Endpoints available within the Spoonacular Food API:
 
 Recipe search:
-GET /recipes/search
-Description: Searches for recipes based on specific criteria such as ingredients, culinary categories, diet types and more.
-Query parameters:
-query: (optional) Search query, e.g. recipe name.
-cuisine: (optional) Cuisine category, e.g. Italian, French.
-diet: (optional) Type of diet, e.g. vegetarian, vegan.
-number: (optional) Number of recipes to be returned.
-Expected response: A list of recipes that meet the specified criteria.
+GET /recipes/search /
+Description: Searches for recipes based on specific criteria such as ingredients, culinary categories, diet types and more. /
+Query parameters: /
+query: (optional) Search query, e.g. recipe name. /
+cuisine: (optional) Cuisine category, e.g. Italian, French. /
+diet: (optional) Type of diet, e.g. vegetarian, vegan. /
+number: (optional) Number of recipes to be returned. /
+Expected response: A list of recipes that meet the specified criteria. /
 
 
-Retrieving food product information:
-GET /food/products/{id}
-Description: Retrieves information about a specific food product based on its identifier.
-Query parameters:
-id: (required) The identifier of the food product.
-Expected response: Specific information about the food product, such as name, nutrients, allergen information, etc.
-
+Retrieving food product information: /
+GET /food/products/{id} /
+Description: Retrieves information about a specific food product based on its identifier. /
+Query parameters: /
+id: (required) The identifier of the food product. /
+Expected response: Specific information about the food product, such as name, nutrients, allergen information, etc. /
+ 
 
 ### Authorisation and security:
 To use the Spoonacular Food API, an API key is required to authorise requests. The API key must be included in the query header as an authorisation parameter.
 ```
 X-Spoonacular-API-Key: your_api_key
 ```
-**Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.**
+> [!NOTE]
+> Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
