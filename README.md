@@ -8,7 +8,9 @@ minimise food waste
 save money through efficient use of products.
 
 Every day, 3.5 million tonnes of food are wasted worldwide. 
+
 You can make a difference!
+
 ***Try it for yourself!***
 
 
@@ -28,7 +30,7 @@ Clone the fAve repository to your local machine using the following command in t
 git clone https://github.com/Jadude/fAve-app.git
 ```
 
-Installing dependencies:
+### Installing dependencies:
 Navigate to the fAve project directory and then install all necessary dependencies using the npm package manager. In the terminal, type:
 
 ```
@@ -38,13 +40,13 @@ npm install
 This will install all required packages, including React, React DOM, Sass and developer tools such as ESLint and Prettier.
 
 
-Adding the Babel plugin:
+### Adding the Babel plugin:
 Add the Babel plugin to the project, which is required to support the new JavaScript features. In the terminal, type:
 ```
 npm install --save-dev @babel/plugin-proposal-class-properties
 ```
 
-Launching the project:
+### Launching the project:
 After installing the dependencies, you can launch the project. In the terminal, type:
 ```
 npm start
@@ -54,36 +56,34 @@ This will start the FreshFridge application in developer mode. Then open a web b
 
 After following the steps above, the fAve project should be ready to use on your device!
 
-If any problems or questions arise during installation, don't hesitate to contact us. We will be happy to help!
+*If any problems or questions arise during installation, don't hesitate to contact me. I will be happy to help!*
 
 
 
-Operating instructions for the fAve application:
+## Operating instructions for the fAve application:
 
-1. basic operation:
+### 1. Basic operation:
 
 To start using the fAve application, simply open a web browser and navigate to http://localhost:3000 (if using a local installation).
 Once the home page has loaded, you will be able to see the application interface.
 
-2 Create a user account:
+### 2. Create a user account:
 
 The first time you launch the application, you will be asked to create a user account. Fill in the registration form with your username.
 After registration, the browser will remember your account.
 
-3 Example usage scenarios:
+### 3. Example usage scenarios:
 
 Expiry date management: Track expiry dates of products in the fridge and receive notifications about products approaching their expiry date. 
 Finding recipes: Find a recipe with a specific product and use it when preparing a meal.
 
-4 Special features:
+### 4. Special features:
 
 In future:
 Automatic recipe search: The fAve app automatically searches for recipes that can be prepared with the products available in the fridge. Simply select the products and fAve will suggest matching recipes.
 Food consumption analysis: fAve offers a food consumption analysis function that helps you track which products are consumed most often, which can help you plan your shopping and reduce food waste.
 
-
-
- FAQ:
+## FAQ:
 
 > Q1: How can I add new products to my fridge in the fAve app?
 
@@ -97,12 +97,12 @@ Answer: Currently no. For the time being, simply press the "fAve!" button, which
 
 Answer: Currently no.  In the future, the fAve app will allow recipes to be shared with other users.
 
-Spoonacular Food API Documentation:
+## Spoonacular Food API Documentation:
 
-API overview:
+### API overview:
 The Spoonacular Food API is an advanced food data management tool, offering a wide range of features such as recipe search, food information, nutrient analysis and much more.
 
-Endpoints available within the Spoonacular Food API:
+### Endpoints available within the Spoonacular Food API:
 
 Recipe search:
 GET /recipes/search
@@ -123,9 +123,9 @@ id: (required) The identifier of the food product.
 Expected response: Specific information about the food product, such as name, nutrients, allergen information, etc.
 
 
-Authorisation and security:
+###Authorisation and security:
 To use the Spoonacular Food API, an API key is required to authorise requests. The API key must be included in the query header as an authorisation parameter.
 
 X-Spoonacular-API-Key: your_api_key
 
-Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
+###Note: Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
