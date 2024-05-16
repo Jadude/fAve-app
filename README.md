@@ -20,6 +20,7 @@ save money through efficient use of products.
 > **The development of the application used:**
 > * SCSS
 > * React.JS
+> * React Router
 > * Babel
 
 
@@ -43,11 +44,19 @@ npm install
 This will install all required packages, including React, React DOM, Sass and developer tools such as ESLint and Prettier.
 
 
+### Adding React Router:
+Add the react-router-dom module to the project that is required to operate the application. In the terminal, type:
+```
+npm and react-router-dom@6. 3. 0 --save
+```
+
+
 ### Adding the Babel plugin:
 Add the Babel plugin to the project, which is required to support the new JavaScript features. In the terminal, type:
 ```
 npm install --save-dev @babel/plugin-proposal-class-properties
 ```
+
 
 ### Launching the project:
 After installing the dependencies, you can launch the project. In the terminal, type:
