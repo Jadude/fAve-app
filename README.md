@@ -47,7 +47,7 @@ This will install all required packages, including React, React DOM, Sass and de
 ### Adding React Router:
 Add the react-router-dom module to the project that is required to operate the application. In the terminal, type:
 ```
-npm and react-router-dom@6. 3. 0 --save
+npm i react-router-dom@6.3.0 --save
 ```
 
 
