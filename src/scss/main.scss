@@ -7,3 +7,8 @@ body {
   font-family: $text-font;
   font-size: $base-font-size;
 }
+
+.container {
+  background: $color-white;
+  margin: 0 2rem 0 2rem;
+}
