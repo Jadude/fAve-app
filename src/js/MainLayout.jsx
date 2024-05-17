@@ -20,6 +20,8 @@ const MainLayout = () => {
 return (
     <div>
         <header>
+            <p>HEADER</p>
+
             <h1>fAve</h1>
             <p>Save your food from ending up in the rubbish!</p>
             <nav>
@@ -30,8 +32,10 @@ return (
                 </ul>
             </nav>
         </header>
+        <p>OUTLET</p>
         <Outlet/>
         <footer>
+            <p>FOOTER</p>
             <p>Do you like this app? Check out my other apps here! </p>
         </footer>
     </div>
