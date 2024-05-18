@@ -1,0 +1,65 @@
+@import "variables";
+
+.properties {
+  display: flex;
+  justify-content: space-between;
+
+  &.headerProperties {
+    background: $color-olivine;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+    padding: 0 1rem;
+    height: 12vh;
+    width: 100wh
+  }
+
+  &.footerProperties {
+    background: $color-olivine;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.nav__list {
+  width: 30rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+  list-style-type: none;
+}
+
+.nav__list__links {
+  text-align: center;
+  text-decoration: none;
+}
+
+.fave__btn {
+  background: $color-huntergreen;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+  border: 1px solid $color-darkgreen;
+  color: $color-white;
+}
+
+.logo {
+  gap: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 6rem;
+  padding: 0 0.2rem;
+  background: $color-huntergreen;
+  border-radius: 0.25rem;
+  border: 0.1rem outset $color-darkgreen;
+  color: $color-white;
+  margin: 1rem 1rem 0.5rem 1rem
+}
+
+.slogan {
+  font-size: 0.5rem;
+  color: $color-darkgreen;
+  //margin-block-end: 0;
+  //margin-block-start: 0
+}

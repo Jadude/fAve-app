@@ -2,13 +2,13 @@
 
 // FONTS
 
-$base-font-size: '16px';
+$base-font-size: 20px;
 
 @font-face {
   font-family: 'Open Sans';
   src: local('Open Sans'),
-  url('../fonts/Open Sans/opensans-regular-webfont.woff2') format('woff2'),
-  url('../fonts/Open Sans/opensans-regular-webfont.woff') format('woff');
+  url('../assets/fonts/Open Sans/opensans-regular-webfont.woff2') format('woff2'),
+  url('../assets/fonts/Open Sans/opensans-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,10 @@ $text-font: 'Open Sans';
 
 // COLOURS
 
-$color-background: rgb(0, 150, 0);
-$color-white: rgb(255, 255, 255);
 
+$color-white: rgb(255, 255, 255);
+$color-teagreen: rgb(203, 222, 177);
+$color-olivine: rgb(151, 188, 98);
+$color-huntergreen: rgb(44, 95, 45);
+$color-darkgreen: rgb(22, 48, 23);
+$color-black: rgb(0, 0, 0);

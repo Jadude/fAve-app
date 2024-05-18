@@ -21,10 +21,6 @@ dist-ssr
 *.sass.map
 *.scss.map
 
-# JSON
-
-package-lock.json
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

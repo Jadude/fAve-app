@@ -7,7 +7,7 @@ const fAvePath = "src";
 export default defineConfig({
   root: fAvePath,
   server: {
-    port: 3000,
+    port: 3010,
   },
   plugins: [react()],
 })
