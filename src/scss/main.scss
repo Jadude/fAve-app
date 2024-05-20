@@ -1,26 +1,66 @@
+//OK
+
 @import "normalize";
 @import "variables";
-@import "classes";
-@import "functions";
+@import "header&footer";
+
+@import "_list.scss";
+@import "app__section";
+@import "layoutAddProduct";
 
 html {
-  font-size: $base-font-size;
-
+  height: 100%;
+  margin: 0;
 }
 
 body {
+  font-size: $base-font-size;
   font-family: $text-font;
-  color: black;
-  width: 100%;
-  background: $color-olivine
+  color: $color-black;
+  background: $color-teagreen;
 }
 
 .container {
   background: $color-teagreen;
-  margin: 0;
+  margin: auto;
+  padding: 0;
+  //width: 95vw // for test before media queries
 }
 
-.outlet {
-  width: 100%;
-  height: 84vh;
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+// OUTLET CONTAINER
+  .outlet--container {
+    background: $color-white;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    flex: 1;
+
+    // next container?
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+  }
+
+
+// DEFINE BREAKPOINTS
+$breakpoint-xs: 575px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-g: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-hd: 1600px;
+
+//// Styles for extra small devices (max-width: 575px)
+//@media (min-width: $breakpoint-g) {
+//}
+
+
+
+
+

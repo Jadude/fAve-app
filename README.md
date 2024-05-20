@@ -45,14 +45,14 @@ This will install all required packages, including React, React DOM, Sass and de
 
 
 ### Adding React Router:
-Add the react-router-dom module to the project that is required to operate the application. In the terminal, type:
+AddProduct the react-router-dom module to the project that is required to operate the application. In the terminal, type:
 ```
 npm i react-router-dom@6.3.0 --save
 ```
 
 
 ### Adding the Babel plugin:
-Add the Babel plugin to the project, which is required to support the new JavaScript features. In the terminal, type:
+AddProduct the Babel plugin to the project, which is required to support the new JavaScript features. In the terminal, type:
 ```
 npm install --save-dev @babel/plugin-proposal-class-properties
 ```
@@ -103,7 +103,7 @@ Food consumption analysis: fAve offers a food consumption analysis function that
 
 > Q1: How can I add new products to my fridge in the fAve app?
 
-Answer: To add new products to your fridge in the fAve app, log in to your account and click the 'Add product' button . Then enter the product name and expiry date. 
+Answer: To add new products to your fridge in the fAve app, log in to your account and click the 'AddProduct product' button . Then enter the product name and expiry date. 
 
 > Q2: Can I set notifications in the fAve app when products are about to expire?
 

@@ -1,10 +1,13 @@
+// OK
+
 import React from 'react';
-import {NavLink} from "react-router-dom";
 
 const Footer = () => {
     return (
         <footer className="properties footerProperties">
-            <span>Do you like this app? Check out my other apps here! </span>
+            <p>If you like this app, check out the others <a className="footer--msg" href="https://github.com/Jadude" target="_blank"
+                                                             rel="noopener noreferrer">HERE</a>! </p>
+            {/* rel for security*/}
         </footer>
     );
 };

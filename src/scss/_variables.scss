@@ -1,8 +1,7 @@
-@import "functions";
+//OK
 
 // FONTS
-
-$base-font-size: 20px;
+$base-font-size: 16px;
 
 @font-face {
   font-family: 'Open Sans';
@@ -17,10 +16,10 @@ $text-font: 'Open Sans';
 
 // COLOURS
 
-
 $color-white: rgb(255, 255, 255);
 $color-teagreen: rgb(203, 222, 177);
 $color-olivine: rgb(151, 188, 98);
 $color-huntergreen: rgb(44, 95, 45);
 $color-darkgreen: rgb(22, 48, 23);
 $color-black: rgb(0, 0, 0);
+$color-delete: rgb(229, 111, 89);
