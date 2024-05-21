@@ -1,9 +1,9 @@
 // OK
 
 import React from 'react';
-import DaysUntilExpiry from '../elements/DaysUntilExpiry.jsx';
-import DeleteIngredientButton from '../elements/DeleteIngredientButton.jsx';
-import EditIngredientButton from "../elements/EditIngredientButton.jsx";
+import DaysUntilExpiry from '../myProductsComponents/DaysUntilExpiry.jsx';
+import DeleteIngredientButton from '../myProductsComponents/DeleteIngredientButton.jsx';
+import EditIngredientButton from "../myProductsComponents/EditIngredientButton.jsx";
 
 const IngredientList = ({ ingredients, removeIngredient }) => {
     return (

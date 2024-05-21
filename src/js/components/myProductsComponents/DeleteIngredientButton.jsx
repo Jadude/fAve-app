@@ -11,7 +11,7 @@ const DeleteIngredientButton = ({ index, onRemove }) => {
     };
 
     return (
-        <button className="button__icon" onClick={handleRemove}><img src="../../assets/icons/trash-solid.svg" alt="delete"/></button>
+        <button className="button__icon" onClick={handleRemove}><img src="../../../assets/icons/trash-solid.svg" alt="delete"/></button>
     );
 };
 
