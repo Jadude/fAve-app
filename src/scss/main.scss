@@ -2,11 +2,11 @@
 
 @import "normalize";
 @import "variables";
-@import "header&footer";
+@import "layout/header&footer";
 
-@import "_list.scss";
-@import "app__section";
-@import "layoutAddProduct";
+@import "box/list";
+@import "box/app__section";
+@import "layout/layoutAddProduct";
 
 html {
   height: 100%;

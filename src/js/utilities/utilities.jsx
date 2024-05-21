@@ -1,4 +1,4 @@
-// HELPER FUNCTION for retrieving components from localStorage
+// HELPER FUNCTION for retrieving addComponents from localStorage
 export const getSavedIngredients = () => {
     // get data saved from localStorage
     const savedIngredients = localStorage.getItem('myProducts');

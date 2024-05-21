@@ -5,13 +5,13 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // routes import
-import MainLayout from "./layout/MainLayout.jsx";
-import Home from "./layout/HomePage.jsx";
-import AddProduct from "./layout/AddProduct.jsx";
-import MyProductsDisplay from "./layout/MyProductsDisplay.jsx";
-import Error404 from "./layout/Error404.jsx";
-import MyRecipes from "./layout/MyRecipes.jsx";
-import MyAccount from "./layout/MyAccount.jsx";
+import MainLayout from "./layout/main layout/MainLayout.jsx";
+import Home from "./layout/main layout/routes/HomePage.jsx";
+import AddProduct from "./layout/main layout/routes/AddProduct.jsx";
+import MyProductsDisplay from "./layout/main layout/routes/MyProductsDisplay.jsx";
+import Error404 from "./layout/main layout/routes/Error404.jsx";
+import MyRecipes from "./layout/main layout/routes/MyRecipes.jsx";
+import MyAccount from "./layout/main layout/routes/MyAccount.jsx";
 
 
 const container = document.getElementById('app');

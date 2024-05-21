@@ -1,7 +1,7 @@
 // OK
 
 import React from 'react';
-import NavLinkBase from "../elements/NavLinkBase.jsx";
+import NavLinkBase from "./NavLinkBase.jsx";
 
 const Header = () => {
     return (
