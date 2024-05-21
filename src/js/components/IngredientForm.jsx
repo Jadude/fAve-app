@@ -1,3 +1,5 @@
+// OK
+
 import React, { useState } from 'react';
 
 const IngredientForm = ({ addIngredient }) => {
@@ -5,7 +7,7 @@ const IngredientForm = ({ addIngredient }) => {
     const [name, setName] = useState('');
     const [expiryDate, setExpiryDate] = useState('');
     const [quantity, setQuantity] = useState('');
-    const [unit, setUnit] = useState('ml');
+    const [unit, setUnit] = useState('pcs');
     const [error, setError] = useState(''); // for validation msg
 
     // VALIDATION FUNCTION
@@ -24,7 +26,7 @@ const IngredientForm = ({ addIngredient }) => {
             return false;
         }
         if (expiry < today) {
-            setError('This product cannot be added as its expiration date has passed.');
+            setError('This product cannot be added as its expiration date has passed. You should bin it.');
             return false;
         }
         setError(''); // no error - no validation msg
@@ -43,7 +45,7 @@ const IngredientForm = ({ addIngredient }) => {
             setName('');
             setExpiryDate('');
             setQuantity('');
-            setUnit('ml');
+            setUnit('pcs');
         }
     };
 
@@ -53,7 +55,7 @@ const IngredientForm = ({ addIngredient }) => {
         <form onSubmit={handleSubmit}>
 
             {/*vVALIDATION MSG*/}
-            {error && <p style={{color: 'red'}}>{error}</p>}
+            {error && <p className="error__msg" >{error}</p>}
 
             <div className="form-group">
                 <label>Name</label>
@@ -85,11 +87,11 @@ const IngredientForm = ({ addIngredient }) => {
             <div className="form-group">
                 <label>Unit</label>
                 <select value={unit} onChange={(e) => setUnit(e.target.value)} required>
-                    <option value="pcs">szt</option>
+                    <option value="pcs">pcs</option>
                     <option value="ml">ml</option>
                     <option value="l">l</option>
                     <option value="g">g</option>
-                    <option value="dag">g</option>
+                    <option value="dag">dag</option>
                     <option value="kg">kg</option>
                     <option value="other">other</option>
                 </select>

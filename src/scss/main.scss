@@ -17,11 +17,11 @@ body {
   font-size: $base-font-size;
   font-family: $text-font;
   color: $color-black;
-  background: $color-teagreen;
+  background: $color-white;
 }
 
 .container {
-  background: $color-teagreen;
+  background: $color-white;
   margin: auto;
   padding: 0;
   //width: 95vw // for test before media queries
@@ -37,7 +37,6 @@ body {
   .outlet--container {
     background: $color-white;
     border-radius: 5px;
-    padding: 1rem;
     margin: 1rem 0 1rem 0;
     flex: 1;
 

@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import IngredientForm from '../components/IngredientForm.jsx';
+//utilities
+import { getSavedIngredients } from './utilities.jsx';
 
-// HELPER FUNCTION for retrieving components from localStorage
-const getSavedIngredients = () => {
-    const savedIngredients = localStorage.getItem('myProducts');
-    return savedIngredients ? JSON.parse(savedIngredients) : [];
-};
 
 
 const AddProduct = () => {
@@ -18,6 +15,7 @@ const AddProduct = () => {
         localStorage.setItem('myProducts', JSON.stringify(ingredients));
     }, [ingredients]);
 
+    // FUNCTION as props to IngredientForm
     const addIngredient = (ingredient) => {
         setIngredients([...ingredients, ingredient]);
     };

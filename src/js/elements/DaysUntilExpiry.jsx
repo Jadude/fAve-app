@@ -23,7 +23,7 @@ const DaysUntilExpiry = ({expiryDate}) => {
     const daysUntilExpiry = calculateDaysUntilExpiry();
 
 // CONDITION: Throw away ! / Use today! / days to expire
-    return <>{daysUntilExpiry < 0 ? 'Throw away!' : daysUntilExpiry === 0 ? 'Use today!' : `${daysUntilExpiry}`}</>;
+    return <>{daysUntilExpiry < 0 ? 'You should bin it!' : daysUntilExpiry === 0 ? 'Use today!' : `${daysUntilExpiry}`}</>;
 };
 
 export default DaysUntilExpiry;

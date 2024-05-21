@@ -8,7 +8,7 @@ const EditIngredientButton = ({ index, onRemove }) => {
     };
 
     return (
-        <button onClick={handleRemove}><img src="../../assets/icons/edit-solid.svg" alt="delete"/></button>
+        <button className="button__icon" onClick={handleRemove}><img src="../../assets/icons/edit-solid.svg" alt="delete"/></button>
     );
 };
 

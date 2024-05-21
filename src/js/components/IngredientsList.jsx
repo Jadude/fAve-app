@@ -1,6 +1,8 @@
+// OK
+
 import React from 'react';
-import DeleteIngredientButton from '../elements/DeleteIngredientButton.jsx';
 import DaysUntilExpiry from '../elements/DaysUntilExpiry.jsx';
+import DeleteIngredientButton from '../elements/DeleteIngredientButton.jsx';
 import EditIngredientButton from "../elements/EditIngredientButton.jsx";
 
 const IngredientList = ({ ingredients, removeIngredient }) => {
@@ -11,9 +13,9 @@ const IngredientList = ({ ingredients, removeIngredient }) => {
                     <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Expiry Date</th>
+                        <th>Expiry date</th>
                         <th>Quantity</th>
-                        <th>Days Until Expiry</th>
+                        <th>Days until expiry</th>
                         <th>Actions</th>
                         <th>To Fave</th>
                     </tr>
@@ -39,7 +41,7 @@ const IngredientList = ({ ingredients, removeIngredient }) => {
                     </tbody>
                 </table>
             ) : (
-                <p>No ingredients available.</p>
+                <p>Add new products!</p>
             )}
         </div>
     );
