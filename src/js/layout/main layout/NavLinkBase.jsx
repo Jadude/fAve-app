@@ -9,8 +9,8 @@ const NavLinkBase = (to, title) => {
                  to={to}
                  style={({isActive}) =>
                      isActive
-                         ? {color: "rgb(203, 222, 177"}
-                         : {color: "white"}
+                         ? {color: "rgb(203, 222, 177)", fontWeight: "bold"}
+                         : {color: "rgb(255,255,255)"}
                  }
                  end
         >

@@ -58,7 +58,7 @@ const IngredientForm = ({ addIngredient }) => {
             {error && <p className="error__msg" >{error}</p>}
 
             <div className="form-group">
-                <label>Name</label>
+                <label>Product name</label>
                 <input
                     type="text"
                     value={name}

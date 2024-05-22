@@ -73,7 +73,12 @@ const RecipeSearch = () => {
     };
 
     const getExpiryItemsAsString = () => {
-        return expiryItems.map(item => item.name).join(', ');
+        if (expiryItems.length > 0) {
+            const showExpireItemsAsString = expiryItems.map(item => item.name).join(', ');
+            return `Items expiring today: ${showExpireItemsAsString}!`;
+        } else {
+            return "Nothing to Fave!";
+        }
     };
 
     const handlePreviousPage = () => {
@@ -100,7 +105,7 @@ const RecipeSearch = () => {
 
                 <div className="fave__searchBox">
                     <h4>or write what you want to use today!</h4>
-                    <p>Items expiring today: {getExpiryItemsAsString()}!</p>
+                    <p>{getExpiryItemsAsString()}</p>
                     <input
                         type="text"
                         value={ingredients}
@@ -135,7 +140,6 @@ const RecipeSearch = () => {
                         {currentRecipes.map(recipe => (
                             <tr key={recipe.id}>
                                 <td style={{fontWeight: 'bold', display: "flex", flexDirection: "column"}}>
-
                                     {recipe.title}
                                     <img src={recipe.image} alt={recipe.title} style={{width: "15rem"}}/>
                                 </td>

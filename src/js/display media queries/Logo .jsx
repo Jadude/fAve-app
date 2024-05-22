@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Logo = () => {
     const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 600);
+    const [isWideScreenWider, setIsWideScreenWider] = useState(window.innerWidth > 900);
 
     useEffect(() => {
         const handleResize = () => {
@@ -15,12 +16,14 @@ const Logo = () => {
     }, []);
 
     return (
-        <div>
+        <>
             {isWideScreen && (
                 <h1 className="header__bonusText">FAVE</h1>
             )}
-        </div>
+
+        </>
     );
 };
+
 
 export default Logo;

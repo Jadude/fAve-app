@@ -13,7 +13,7 @@ const Header = () => {
             <nav className="nav__bar">
                 {/* navlink*/}
                 <ul className="nav__list">
-                    <li className="nav__list__links">{NavLinkBase("/fave", "FAVE")} </li>
+                    <li className="nav__list__links">{NavLinkBase("/fave", "Fave products")} </li>
                     <li className="nav__list__links">{NavLinkBase("/addproduct", "Add product ")}</li>
                     <li className="nav__list__links">{NavLinkBase("/myproducts", "My products")}</li>
                     <li className="nav__list__links">{NavLinkBase("/myrecipes", "My recipes")}</li>

@@ -5,10 +5,9 @@ form {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  padding:  0.5rem;
-// MQ
-width: 90%;
-
+  padding: 0.5rem;
+  // MQ
+  width: 80%;
   //flex: 1; // stretch down
 }
 
@@ -29,7 +28,7 @@ width: 90%;
 }
 
 input, select {
- border-radius: 5px;
+  border-radius: 5px;
   padding: 0.5rem;
   width: 15rem
 }
@@ -41,7 +40,6 @@ button {
 }
 
 
-
 .error__msg {
   background-color: $color-white;
   color: $color-delete;
@@ -49,9 +47,11 @@ button {
   text-align: center;
   border-radius: 10px;
   padding: 0.5rem;
+
   &--info {
     color: $color-darkgreen;
   }
+
   &--resize {
     width: 20rem;
     border: 1px solid $color-huntergreen;
