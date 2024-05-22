@@ -5,9 +5,11 @@ import React from 'react';
 const MyAccount = () => {
 
     return (
-        <div className="outlet--container">
-            <h2>My account - soon!</h2>
-        </div>
+        <main className="outlet--container">
+            <section className="app__section">
+                <h2>My account - soon!</h2>
+            </section>
+        </main>
     );
 };
 

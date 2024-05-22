@@ -6,6 +6,9 @@ form {
   flex-direction: column;
   border-radius: 5px;
   padding:  0.5rem;
+// MQ
+width: 90%;
+
   //flex: 1; // stretch down
 }
 
@@ -28,14 +31,13 @@ form {
 input, select {
  border-radius: 5px;
   padding: 0.5rem;
-  margin-left: 1rem;
-  width: 10rem
+  width: 15rem
 }
 
 button {
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 
@@ -45,8 +47,15 @@ button {
   color: $color-delete;
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.5rem;
+  &--info {
+    color: $color-darkgreen;
+  }
+  &--resize {
+    width: 20rem;
+    border: 1px solid $color-huntergreen;
+  }
 }
 
 .button__icon {

@@ -1,11 +1,15 @@
 //ok
 
 import React from 'react';
+import APIfetch from "../../../utilities/APIfetch.jsx";
 
-const HomePage = () => {
+const Fave = () => {
     return (
-        <main></main>
-    );
-};
+        <main className="outlet--container">
+            <section className="app__section">
+                <APIfetch/>
+                </section>
+        </main>
+)};
 
-export default HomePage;
+export default Fave;

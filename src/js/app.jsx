@@ -12,6 +12,8 @@ import MyProductsDisplay from "./layout/main layout/routes/MyProductsDisplay.jsx
 import Error404 from "./layout/main layout/routes/Error404.jsx";
 import MyRecipes from "./layout/main layout/routes/MyRecipes.jsx";
 import MyAccount from "./layout/main layout/routes/MyAccount.jsx";
+import HomePage from "./layout/main layout/routes/HomePage.jsx";
+import Fave from "./layout/main layout/routes/Fave.jsx";
 
 
 const container = document.getElementById('app');
@@ -22,8 +24,8 @@ const App = () => {
         <BrowserRouter>
         <Routes>
             <Route path="/" element={<MainLayout/>}>
-                <Route path="/" element={<Home/>}/>
-                <Route path="fave" element={<Home/>}/>
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="fave" element={<Fave />}/>
                 <Route path="addproduct" element={<AddProduct />}/>
                 <Route path="myproducts" element={<MyProductsDisplay />}/>
                 <Route path="myrecipes" element={<MyRecipes/>}/>

@@ -7,7 +7,7 @@ import EditIngredientButton from "../myProductsComponents/EditIngredientButton.j
 
 const IngredientList = ({ ingredients, removeIngredient }) => {
     return (
-        <div className="ingredient-list">
+        <div className="ingredient__table">
             {ingredients.length > 0 ? (
                 <table>
                     <thead>
@@ -17,7 +17,6 @@ const IngredientList = ({ ingredients, removeIngredient }) => {
                         <th>Quantity</th>
                         <th>Days until expiry</th>
                         <th>Actions</th>
-                        <th>To Fave</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -30,11 +29,6 @@ const IngredientList = ({ ingredients, removeIngredient }) => {
                             <td>
                                 <EditIngredientButton index={index} onRemove={removeIngredient} />
                                 <DeleteIngredientButton index={index} onRemove={removeIngredient} />
-                            </td>
-                            <td>
-                                <input>
-                                    {/*type="checkbox"*/}
-                                </input>
                             </td>
                         </tr>
                     ))}

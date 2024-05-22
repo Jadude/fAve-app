@@ -26,7 +26,7 @@ const MyProductsDisplay = () => {
     return (
         <main className="outlet--container">
             <div className="app__section">
-            <h1>My products:</h1>
+            <h2>My products:</h2>
             <IngredientList ingredients={ingredients} removeIngredient={removeIngredient} />
             </div>
         </main>
