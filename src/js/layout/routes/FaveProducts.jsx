@@ -4,7 +4,7 @@ import React from 'react';
 import FaveSearch from "../../components/FaveSearchComponents/FaveSearch.jsx"
 
 
-const Fave = () => {
+const FaveProducts = () => {
     return (
         <main className="outlet--container">
             <section className="main__section">
@@ -13,4 +13,4 @@ const Fave = () => {
         </main>
 )};
 
-export default Fave;
+export default FaveProducts;

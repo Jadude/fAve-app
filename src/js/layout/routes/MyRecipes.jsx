@@ -12,5 +12,4 @@ const MyRecipes = () => {
         </main>
             );
             };
-
             export default MyRecipes;

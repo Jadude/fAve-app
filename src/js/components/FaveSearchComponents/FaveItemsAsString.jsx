@@ -9,7 +9,7 @@ const FaveItemsAsString = ({ expiryItems }) => {
             const showExpireItemsAsString = expiryItems.map(item => item.name).join(', ');
             return `Items expiring today: ${showExpireItemsAsString}!`;
         } else {
-            return "Nothing to Fave!"; // Return message if no items are expiring today
+            return "Nothing to FaveProducts!"; // Return message if no items are expiring today
         }
     };
 

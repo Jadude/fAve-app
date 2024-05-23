@@ -9,7 +9,7 @@ const FaveSearchBox = ({ ingredients, setIngredients, handleSearch, handleFaveSe
             <section className="fave__searchBox">
 
                 <h3> Try fave button!</h3>
-                <button className="button__fave" onClick={handleFaveSearch}>Fave</button>
+                <button className="button__fave logo__font" onClick={handleFaveSearch}>Fave</button>
             </section>
 
             {/* entering custom ingredients section */}

@@ -4,6 +4,15 @@
 $base-font-size: 16px;
 
 @font-face {
+  font-family: 'Action Man';
+  src: local('Action Man'),
+  url('../assets/fonts/Action Man/action_man-webfont.woff2') format('woff2'),
+  url('../assets/fonts/Action Man/action_man-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Open Sans';
   src: local('Open Sans'),
   url('../assets/fonts/Open Sans/opensans-regular-webfont.woff2') format('woff2'),
@@ -13,6 +22,7 @@ $base-font-size: 16px;
 }
 
 $text-font: 'Open Sans';
+$font-logo: 'Action Man';
 
 // COLOURS
 
