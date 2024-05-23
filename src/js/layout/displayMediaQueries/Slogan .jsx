@@ -17,7 +17,7 @@ const Slogan = () => {
     return (
         <div>
             {isWideScreen && (
-                <h5 className="header__bonusText"> FAVE = Food sAVE!</h5>
+                <h5 className="logo__decoration logo__font"> FAVE = Food sAVE!</h5>
             )}
         </div>
     );

@@ -30,13 +30,9 @@
   }
 }
 
-.header__bonusText {
-  color: $color-huntergreen;
-}
+
 
 // NAV
-.nav__bar {
-}
 
 .nav__list {
   list-style-type: none;
@@ -52,7 +48,7 @@
   border-left: 1px solid $color-darkgreen;
   border-bottom: 1px solid $color-darkgreen;
   // better look
-  height: 5rem;
+  height: 4rem;
   align-content: center;
   margin: 0;
 
@@ -71,8 +67,16 @@
 
 .nav__list__a {
   text-decoration: none;
-  padding: 0.25rem;
+  padding: 0.5rem;
   display: block;
   text-align: center;
+}
+
+.logo__decoration {
+  color: $color-huntergreen;
+}
+
+.logo__font {
+  font-family: $font-logo;
 }
 

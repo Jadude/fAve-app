@@ -1,20 +1,17 @@
 // OK
-
-
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 // routes import
 import MainLayout from "./layout/main/MainLayout.jsx";
-import Home from "./layout/routes/HomePage.jsx";
 import AddProduct from "./layout/routes/AddProduct.jsx";
 import MyProductsDisplay from "./layout/routes/MyProductsDisplay.jsx";
 import Error404 from "./layout/routes/Error404.jsx";
 import MyRecipes from "./layout/routes/MyRecipes.jsx";
 import MyAccount from "./layout/routes/MyAccount.jsx";
 import HomePage from "./layout/routes/HomePage.jsx";
-import Fave from "./layout/routes/Fave.jsx";
-
+import FaveProducts from "./layout/routes/FaveProducts.jsx";
 
 const container = document.getElementById('app');
 const root = createRoot(container);
@@ -25,7 +22,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<MainLayout/>}>
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="fave" element={<Fave />}/>
+                <Route path="fave" element={<FaveProducts />}/>
                 <Route path="addproduct" element={<AddProduct />}/>
                 <Route path="myproducts" element={<MyProductsDisplay />}/>
                 <Route path="myrecipes" element={<MyRecipes/>}/>

@@ -17,7 +17,7 @@ const Logo = () => {
     return (
         <>
             {isWideScreen && (
-                <h1 className="header__bonusText">FAVE</h1>
+                <h1 className="logo__decoration logo__font">FAVE</h1>
             )}
 
         </>
