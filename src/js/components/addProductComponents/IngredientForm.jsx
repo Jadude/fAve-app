@@ -1,6 +1,6 @@
 // OK
 
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 
 const IngredientForm = ({ addIngredient }) => {
     // INGREDIENT  STATE (Stores the component and functions to update it.)
@@ -8,7 +8,11 @@ const IngredientForm = ({ addIngredient }) => {
     const [expiryDate, setExpiryDate] = useState('');
     const [quantity, setQuantity] = useState('');
     const [unit, setUnit] = useState('pcs');
-    const [error, setError] = useState(''); // for validation msg
+    // for validation msg
+    const [error, setError] = useState('');
+    // confirmation state
+    const [formIsSubmitted, setFormIsSubmitted] = useState(false);
+    const [timeoutId, setTimeoutId] = useState(null);
 
     // VALIDATION FUNCTION
     const validateForm = () => {
@@ -33,6 +37,8 @@ const IngredientForm = ({ addIngredient }) => {
         return true;
     };
 
+
+
 // FORM SUBMISSION FUNCTION
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -46,12 +52,31 @@ const IngredientForm = ({ addIngredient }) => {
             setExpiryDate('');
             setQuantity('');
             setUnit('pcs');
+
+            // CONFIRM MSG
+            setFormIsSubmitted(true);
+            // Hide the confirmation message after 2 seconds
+            const IDtimeout= setTimeout(() => {
+                setFormIsSubmitted(false);
+            }, 2000);
+            // Store the timeout ID in the state
+            setTimeoutId(IDtimeout);
         }
     };
+
+    // clear the timeout if it exists
+    useEffect(() => {
+        return () => {
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+        };
+    }, [timeoutId]);
 
     // UI
     return (
         // FORM
+        <>
         <form onSubmit={handleSubmit}>
 
             {/*vVALIDATION MSG*/}
@@ -98,6 +123,8 @@ const IngredientForm = ({ addIngredient }) => {
             </div>
             <button type="submit">Add Ingredient</button>
         </form>
+            {formIsSubmitted && <p className="error__msg error__msg--resize error__msg--info">Success! Form submitted.</p>}
+        </>
     );
 };
 

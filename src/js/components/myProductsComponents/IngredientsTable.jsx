@@ -6,6 +6,13 @@ import DeleteIngredientButton from './DeleteIngredientButton.jsx';
 import EditIngredientButton from "./EditIngredientButton.jsx";
 
 const IngredientList = ({ingredients, removeIngredient}) => {
+
+    //create a new array containing sorted ingredients from `ingredients` (to avoid modifying the original array)
+    const sortedIngredients = ingredients.slice().sort((a, b) => {
+        return new Date(a.expiryDate) - new Date(b.expiryDate);
+
+    });
+
     return (
         <section className="fave__tableBox">
                 {ingredients.length > 0 ? (
@@ -21,7 +28,7 @@ const IngredientList = ({ingredients, removeIngredient}) => {
                         </tr>
                         </thead>
                         <tbody>
-                        {ingredients.map((ingredient, index) => (
+                        {sortedIngredients.map((ingredient, index) => (
                             <tr key={index} className="ingredient">
                                 <td>{ingredient.name}</td>
                                 <td>{ingredient.expiryDate}</td>

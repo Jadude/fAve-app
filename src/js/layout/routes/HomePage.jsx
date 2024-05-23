@@ -1,16 +1,15 @@
 //ok
 
 import React from 'react';
-import FaveSearch from "../../../components/FaveSearchComponents/FaveSearch.jsx"
 
-
-const Fave = () => {
+const HomePage = () => {
     return (
         <main className="outlet--container">
             <section className="main__section">
-                <FaveSearch />
+                <h2>Welcome!</h2>
             </section>
         </main>
-)};
+    );
+};
 
-export default Fave;
+export default HomePage;
