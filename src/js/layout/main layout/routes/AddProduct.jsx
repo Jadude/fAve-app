@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import IngredientForm from '../../../components/addComponents/IngredientForm.jsx';
+import IngredientForm from '../../../components/addProductComponents/IngredientForm.jsx';
 //utilities
-import { getSavedIngredients } from '../../../utilities/utilities.jsx';
+import { getSavedIngredients } from '../../../utilities/getSavedIngredients.jsx';
 
 
 
@@ -25,12 +25,11 @@ const AddProduct = () => {
             <section className="app__section">
             <h2>Add new product here:</h2>
             <IngredientForm addIngredient={addIngredient} />
-                <div className="app__section app__section--modifier">
-                    show me added products, please! Soooon! Soon as possible!
-                </div>
+                {/*<div className="app__section--list"></div>*/}
             </section>
         </main>
     );
 };
 
 export default AddProduct;
+

@@ -1,16 +1,17 @@
 .app__section {
   background: $color-teagreen;
   border-radius: 5px;
-  padding: 1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  &--modifier {
-    background: $color-white;
-    margin: 1rem 1rem 0 1rem;
-
+  width: 100%;
   }
+
+.app__section--list {
+  background: $color-white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem 0 1rem 0;
 }
 

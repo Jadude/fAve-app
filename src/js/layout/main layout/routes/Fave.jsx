@@ -1,16 +1,16 @@
-// OK
+//ok
 
 import React from 'react';
+import FaveSearch from "../../../components/FaveSearchComponents/FaveSearch.jsx"
 
-const MyRecipes = () => {
 
+const Fave = () => {
     return (
         <main className="outlet--container">
             <section className="app__section">
-                <h2>My recipes - soon!</h2>
+                <FaveSearch />
             </section>
         </main>
-            );
-            };
+)};
 
-            export default MyRecipes;
+export default Fave;
