@@ -1,0 +1,29 @@
+.fave__searchBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.fave__searchBox {
+  background: $color-white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 20rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  &--mod {
+    display: block;
+    background: red;
+  }
+}
+
+.button__fave {
+  background: $color-olivine;
+  width: 10rem;
+  height: 10rem;
+}

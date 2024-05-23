@@ -1,0 +1,146 @@
+@import "../variables";
+//
+//.ingredient__table {
+//  //width: 100%;
+//  width: 80vw;
+//  border-collapse: collapse;
+//  background: $color-white;
+//  //margin: 1rem;
+//  border-radius: 10px;
+//}
+//
+//.ingredient__table--mod {
+//}
+//
+//.table-container {
+//  max-width: 100%;
+//  overflow-x: auto;
+//}
+//
+//.fave__tableBox {
+//  padding: 0.5rem;
+//  background: $color-olivine;
+//  border-radius: 10px;
+//  margin: 0 0.5rem 1rem 0.5rem;
+//
+//}
+//
+//th {
+//  background: $color-olivine;
+//  height: 2rem;
+//  padding-bottom: 0.5rem;
+//}
+//
+//th,
+//td {
+//  word-wrap: break-word;
+//  text-align: center;
+//  vertical-align: middle;
+//  white-space: normal;
+//}
+//
+//tr:nth-child(even) {
+//  background-color: $color-teagreen;
+//}
+//
+//img {
+//  max-width: 100%;
+//  height: auto;
+//  display: block;
+//  margin: auto;
+//  border-radius: 10px;
+//  padding-left: 0.25rem;
+//}
+//
+//ul {
+//  list-style-type: none;
+//  padding: 0;
+//  text-align: center;
+//
+//  li {
+//    margin: 0.25rem 0;
+//  }
+//}
+//
+//.ingredient {
+//  background-color: $color-white;
+//}
+//
+
+@import "../variables";
+
+.fave__tableBox {
+  padding: 0.5rem;
+  background: $color-olivine;
+  border-radius: 10px;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.table-container {
+  overflow: hidden;
+  max-height: 70vh;
+
+  &:hover {
+    overflow: auto;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.ingredient__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: $color-white;
+  border-radius: 10px;
+}
+
+.ingredient__table--mod {
+}
+
+
+th {
+  background: $color-olivine;
+  height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+th,
+td {
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+tr:nth-child(even) {
+  background-color: $color-teagreen;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  padding-left: 0.25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+
+  li {
+    margin: 0.25rem 0;
+  }
+}
+
+.ingredient {
+  background-color: $color-white;
+}

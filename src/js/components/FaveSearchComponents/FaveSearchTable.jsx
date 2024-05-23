@@ -1,7 +1,7 @@
 import React from 'react';
 
 // COMPONENT with recipes table
-const RecipeTable = ({ recipes }) => {
+const FaveSearchTable = ({ recipes }) => {
     return (
         <section className="fave__tableBox">
             <table className="ingredient__table">
@@ -36,7 +36,7 @@ const RecipeTable = ({ recipes }) => {
                             </ul>
                         </td>
                         <td>
-                            <a href={recipe.recipeUrl} target="_blank" rel="noopener noreferrer">View recipe</a>
+                            <a style={{color: "rgb(44, 95, 45)", textDecoration: "none" }} href={recipe.recipeUrl} target="_blank" rel="noopener noreferrer">View recipe</a>
                         </td>
                     </tr>
                 ))}
@@ -46,4 +46,4 @@ const RecipeTable = ({ recipes }) => {
     );
 };
 
-export default RecipeTable;
+export default FaveSearchTable;

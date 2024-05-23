@@ -1,16 +1,16 @@
 // OK
 
 import React from 'react';
-import DaysUntilExpiry from '../myProductsComponents/DaysUntilExpiry.jsx';
-import DeleteIngredientButton from '../myProductsComponents/DeleteIngredientButton.jsx';
-import EditIngredientButton from "../myProductsComponents/EditIngredientButton.jsx";
+import DaysUntilExpiry from './DaysUntilExpiry.jsx';
+import DeleteIngredientButton from './DeleteIngredientButton.jsx';
+import EditIngredientButton from "./EditIngredientButton.jsx";
 
 const IngredientList = ({ingredients, removeIngredient}) => {
     return (
-        <div className="fave__tableBox">
-
+        <section className="fave__tableBox">
                 {ingredients.length > 0 ? (
-                    <table className="ingredient__table">
+                    <div className="table-container">
+                    <table className="ingredient__table ingredient__table--mod">
                         <thead>
                         <tr>
                             <th>Name</th>
@@ -35,10 +35,12 @@ const IngredientList = ({ingredients, removeIngredient}) => {
                         ))}
                         </tbody>
                     </table>
-                ) : (
+                </div>
+                    )
+                    : (
                     <p>Add new products!</p>
                 )}
-            </div>
+            </section>
     );
 };
 

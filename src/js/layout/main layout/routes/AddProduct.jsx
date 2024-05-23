@@ -22,7 +22,7 @@ const AddProduct = () => {
 
     return (
         <main className="outlet--container">
-            <section className="app__section">
+            <section className="main__section">
             <h2>Add new product here:</h2>
             <IngredientForm addIngredient={addIngredient} />
                 {/*<div className="app__section--list"></div>*/}

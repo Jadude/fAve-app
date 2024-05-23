@@ -1,0 +1,18 @@
+.error__msg {
+  background-color: $color-white;
+  color: $color-delete;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem;
+
+  &--info {
+    color: $color-darkgreen;
+  }
+
+  &--resize {
+    width: 20rem;
+    border: 1px solid $color-huntergreen;
+  }
+}
+
