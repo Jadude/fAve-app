@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import IngredientForm from '../../../components/addComponents/IngredientForm.jsx';
+import IngredientForm from '../../../components/addProductComponents/IngredientForm.jsx';
 //utilities
-import { getSavedIngredients } from '../../../utilities/utilities.jsx';
+import { getSavedIngredients } from '../../../utilities/getSavedIngredients.jsx';
 
 
 

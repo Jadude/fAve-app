@@ -24,7 +24,7 @@ const DaysUntilExpiry = ({expiryDate}) => {
 
 // CONDITION: Throw away ! / Use today! / days to expire
 //     return <>{daysUntilExpiry < 0 ? 'You should bin it!' : daysUntilExpiry === 0 ? 'Use today!' : `${daysUntilExpiry}`}</>;
-    return <>{`${daysUntilExpiry}`}</>;
+    return <>{daysUntilExpiry}</>;
 };
 
 export default DaysUntilExpiry;

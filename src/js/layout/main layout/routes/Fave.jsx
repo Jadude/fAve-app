@@ -1,14 +1,15 @@
 //ok
 
 import React from 'react';
-import APIfetch from "../../../utilities/APIfetch.jsx";
+import FaveSearch from "../../../components/FaveSearchComponents/FaveSearch.jsx"
+
 
 const Fave = () => {
     return (
         <main className="outlet--container">
             <section className="app__section">
-                <APIfetch/>
-                </section>
+                <FaveSearch />
+            </section>
         </main>
 )};
 

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 const Logo = () => {
     const [isWideScreen, setIsWideScreen] = useState(window.innerWidth > 600);
-    const [isWideScreenWider, setIsWideScreenWider] = useState(window.innerWidth > 900);
 
     useEffect(() => {
         const handleResize = () => {

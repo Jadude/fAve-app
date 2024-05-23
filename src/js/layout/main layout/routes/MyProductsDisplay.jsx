@@ -1,9 +1,9 @@
 //ok
 
 import React, { useState, useEffect } from 'react';
-import IngredientList from "../../../components/addComponents/IngredientsList.jsx";
+import IngredientList from "../../../components/addProductComponents/IngredientsList.jsx";
 //utilities
-import {getSavedIngredients} from "../../../utilities/utilities.jsx";
+import {getSavedIngredients} from "../../../utilities/getSavedIngredients.jsx";
 
 
 const MyProductsDisplay = () => {
