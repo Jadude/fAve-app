@@ -59,15 +59,14 @@ const IngredientForm = ({ addIngredient }) => {
             const IDtimeout= setTimeout(() => {
                 setFormIsSubmitted(false);
             }, 2000);
-
             // Store the timeout ID in the state
             setTimeoutId(IDtimeout);
         }
     };
 
+    // clear the timeout if it exists
     useEffect(() => {
         return () => {
-            // Clear the timeout if it exists
             if (timeoutId) {
                 clearTimeout(timeoutId);
             }
