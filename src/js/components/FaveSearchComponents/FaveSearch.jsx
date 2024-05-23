@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import FaveSearchBox from './FaveSearchBox.jsx';
-import RecipeTable from './RecipeTable.jsx';
+import FaveSearchTable from './FaveSearchTable.jsx';
 import PaginationControls from './PaginationControls.jsx';
 import {calculateDaysUntilExpiry} from "../../utilities/calculateDaysUntilExpiry.jsx";
 
@@ -128,7 +128,7 @@ const FaveSearch = () => {
             </section>
 
             {/*// table only if recipes found*/}
-            {recipes.length > 0 && <RecipeTable recipes={currentPagePagination}/>}
+            {recipes.length > 0 && <FaveSearchTable recipes={currentPagePagination}/>}
             {/*// table only when needed*/}
             {recipes.length > recipesPerPage && (
                 <PaginationControls

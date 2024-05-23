@@ -1,0 +1,13 @@
+button {
+  background: $color-white;
+  color: $color-darkgreen;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fave__prevNext{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}

@@ -4,9 +4,14 @@
 @import "variables";
 @import "layout/header&footer";
 
-@import "box/list";
-@import "box/app__section";
-@import "layout/layoutAddProduct";
+@import "elements/form";
+@import "elements/table_styling";
+@import "layout/main__section";
+@import "elements/icon.scss";
+@import "elements/msg";
+@import "elements/button";
+@import "elements/_search_boxes.scss";
+
 
 html {
   height: 100%;
@@ -24,7 +29,6 @@ body {
   background: $color-white;
   margin: auto;
   padding: 0;
-  //width: 95vw // for test before media queries
 }
 
 .main-layout {
@@ -39,7 +43,6 @@ body {
     border-radius: 5px;
     margin: 1rem 0 1rem 0;
     flex: 1;
-
     // next container?
     display: flex;
     flex-direction: column;
@@ -47,17 +50,15 @@ body {
   }
 
 
-// DEFINE BREAKPOINTS
-$breakpoint-xs: 575px;
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-g: 992px;
-$breakpoint-xl: 1200px;
-$breakpoint-hd: 1600px;
+//// DEFINE BREAKPOINTS
+//$breakpoint-xs: 575px;
+//$breakpoint-sm: 576px;
+//$breakpoint-md: 768px;
+//$breakpoint-g: 992px;
+//$breakpoint-xl: 1200px;
+//$breakpoint-hd: 1600px;
 
-//// Styles for extra small devices (max-width: 575px)
-//@media (min-width: $breakpoint-g) {
-//}
+
 
 
 

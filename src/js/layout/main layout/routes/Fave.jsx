@@ -7,7 +7,7 @@ import FaveSearch from "../../../components/FaveSearchComponents/FaveSearch.jsx"
 const Fave = () => {
     return (
         <main className="outlet--container">
-            <section className="app__section">
+            <section className="main__section">
                 <FaveSearch />
             </section>
         </main>

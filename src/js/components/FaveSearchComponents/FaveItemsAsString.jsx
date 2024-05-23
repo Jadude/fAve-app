@@ -1,6 +1,6 @@
 import React from 'react';
 
-// ELEMENT <P> in 2nd search box
+// ELEMENT <P> in 2nd search elements
 const FaveItemsAsString = ({ expiryItems }) => {
 // Helper function to generate a string of items expiring today
     const getExpiryItemsAsString = () => {

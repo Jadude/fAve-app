@@ -1,5 +1,6 @@
-.app__section {
+.main__section {
   background: $color-teagreen;
+  //background: red;
   border-radius: 5px;
   flex: 1;
   display: flex;
@@ -8,7 +9,7 @@
   width: 100%;
   }
 
-.app__section--list {
+.main__section--list {
   background: $color-white;
   border-radius: 5px;
   padding: 0.5rem;
