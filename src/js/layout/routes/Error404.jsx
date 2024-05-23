@@ -1,16 +1,16 @@
-//ok
+// OK
 
 import React from 'react';
-import FaveSearch from "../../../components/FaveSearchComponents/FaveSearch.jsx"
 
+const Error404 = () => {
 
-const Fave = () => {
     return (
         <main className="outlet--container">
             <section className="main__section">
-                <FaveSearch />
+                <h2>404, please turn back.</h2>
             </section>
         </main>
-)};
+    );
+};
 
-export default Fave;
+export default Error404;

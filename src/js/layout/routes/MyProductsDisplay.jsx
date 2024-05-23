@@ -1,9 +1,9 @@
 //ok
 
 import React, { useState, useEffect } from 'react';
-import IngredientList from "../../../components/myProductsComponents/IngredientsTable.jsx";
+import IngredientList from "../../components/myProductsComponents/IngredientsTable.jsx";
 //utilities
-import {getSavedIngredients} from "../../../utilities/getSavedIngredients.jsx";
+import {getSavedIngredients} from "../../utilities/getSavedIngredients.jsx";
 
 
 const MyProductsDisplay = () => {
@@ -25,10 +25,10 @@ const MyProductsDisplay = () => {
 
     return (
         <main className="outlet--container">
-            <div className="main__section">
+            <section className="main__section">
             <h2>My products:</h2>
             <IngredientList ingredients={ingredients} removeIngredient={removeIngredient} />
-            </div>
+            </section>
         </main>
     );
 };

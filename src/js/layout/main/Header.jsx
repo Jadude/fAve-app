@@ -2,8 +2,8 @@
 
 import React from 'react';
 import NavLinkBase from "./NavLinkBase.jsx";
-import Logo from "../../display media queries/Logo .jsx";
-import Slogan from "../../display media queries/Slogan .jsx";
+import Logo from "../displayMediaQueries/Logo .jsx";
+import Slogan from "../displayMediaQueries/Slogan .jsx";
 
 const Header = () => {
     return (

@@ -4,7 +4,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
-import Logo from "../../display media queries/Logo .jsx";
+import Logo from "../displayMediaQueries/Logo .jsx";
 
 
 const MainLayout = () => {
