@@ -96,7 +96,7 @@ const FaveSearch = () => {
 
     const currentPageIndex = (currentPage - 1) * recipesPerPage; // starts with 0
     const totalPages = Math.ceil(recipes.length / recipesPerPage); // how many pages are needed to accommodate all the recipes
-    const currentPagePagination = recipes.slice(currentPageIndex, currentPageIndex + recipesPerPage); // here: 1, 2, 3, 4
+    const currentPagePagination = recipes.slice(currentPageIndex, currentPageIndex + recipesPerPage); // here: 1, 2, 3, 4, 5
 
     // reduces currentPage by 1, but not more than totalPages
     const prevPageConst = () => {

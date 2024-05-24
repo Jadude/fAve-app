@@ -1,6 +1,7 @@
 //ok
 
 import React from 'react';
+import iconTrash from '../../../assets/icons/trash-solid.svg';
 
 //  ELEMENT: BUTTON FOR REMOVING A PRODUCT FROM LOCAL STORAGE
 const DeleteIngredientButton = ({ index, onRemove }) => {
@@ -11,7 +12,7 @@ const DeleteIngredientButton = ({ index, onRemove }) => {
     };
 
     return (
-        <button className="button__icon" onClick={handleRemove}><img src="../../../assets/icons/trash-solid.svg" alt="delete"/></button>
+        <button className="button__icon" onClick={handleRemove}><img src={iconTrash} alt="delete"/></button>
     );
 };
 

@@ -3,6 +3,8 @@
 import React, {useEffect, useState} from 'react';
 import SaveLogin from "../../components/loginComponetns/SaveLogin.jsx";
 import Login from "../../components/loginComponetns/Login.jsx";
+import iconEarth from '../../../assets/icons/earth-svgrepo.svg';
+
 
 const HomePage = () => {
 // STATE
@@ -39,7 +41,7 @@ const HomePage = () => {
                         <p>Save money and food! </p>
                         <p>Good luck!</p>
                         </article>
-                        <img style={{height: "15rem"}} src="../../../assets/icons/earth-svgrepo.svg" alt="earth"/>
+                        <img style={{height: "15rem"}} src={iconEarth} alt="earth"/>
                         <p className="error__msg error__msg--info">Click on the menu above to go to the application.</p>
                     </section>
                 ) : (
