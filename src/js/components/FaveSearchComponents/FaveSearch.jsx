@@ -49,7 +49,7 @@ const FaveSearch = () => {
 
             .then(response => {
 
-                console.log('Server response:', response); // server log for diagnostics
+                // console.log('Server response:', response); // server log for diagnostics
                 if (!response.ok) {
                     throw new Error('Network response was not ok'); // error msg
                 }
@@ -57,7 +57,7 @@ const FaveSearch = () => {
             })
 
             .then(data => {
-                console.log('Fetched data:', data); // server log for diagnostics
+                // console.log('Fetched data:', data); // server log for diagnostics
                 if (data.length === 0) {
                     setNoResults(true); // for msg no recipes found
                 } else {
@@ -78,7 +78,7 @@ const FaveSearch = () => {
 
             })
             .catch(error => {
-                console.error('Fetch error:', error); // server log for diagnostics
+                // console.error('Fetch error:', error); // server log for diagnostics
                 setError(error.message); // set error message
                 setLoading(false); // end loading state
             });
