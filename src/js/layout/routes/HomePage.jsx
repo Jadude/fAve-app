@@ -54,7 +54,7 @@ const HomePage = () => {
                                 save time on meal planning and shopping, minimise food waste save money through
                                 efficient use of products.</p>
                         </article>
-                        <p className="error__msg error__msg--info">Try it yourself!</p>
+                        <p className="error__msg error__msg--info error__msg--resize">Try it yourself!</p>
                     </section>
 
                     // onLogin = props to SaveLogin

@@ -1,7 +1,7 @@
 //ok
 
 import React, { useState, useEffect } from 'react';
-import IngredientTable from "../../components/myProductsComponents/IngredientsTable.jsx";
+import IngredientTable from "../../components/myProductsComponents/ProductsTable.jsx";
 //utilities
 import {getSavedIngredients} from "../../utilities/getSavedIngredients.jsx";
 

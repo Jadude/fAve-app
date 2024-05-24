@@ -35,7 +35,8 @@ const FaveSearch = () => {
 
     // FUNCTION to search
     const handleSearch = (query) => {
-        const keyAPI = '4ef4f9544a3b4e51a1290e544f11bf61';
+        const keyAPI = 'c4c3e987b5964965bb24fdb2e73a7ece'; // comment this line of code
+        // const keyAPI = ''; // and enter your key here and uncomment
         const urlAPI = `https://api.spoonacular.com/recipes/findByIngredients?apiKey=${keyAPI}&ingredients=${query}&number=${recipesPerSearch}`;
 
         // reset state

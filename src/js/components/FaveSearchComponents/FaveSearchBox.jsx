@@ -22,7 +22,7 @@ const FaveSearchBox = ({ ingredients, setIngredients, handleSearch, handleFaveSe
                     type="text"
                     value={ingredients}
                     onChange={(e) => setIngredients(e.target.value)}
-                    placeholder={`Enter ingredients here...`}
+                    placeholder={`Enter ingredients, separated by "."`}
                 />
                 <button onClick={() => handleSearch(ingredients)}>Search for yourself</button>
             </section>
