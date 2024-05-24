@@ -3,14 +3,15 @@
 @import "normalize";
 @import "variables";
 @import "layout/header&footer";
-
+@import "layout/main__section";
+@import "layout/loginLandingPage";
 @import "elements/form";
 @import "elements/table_styling";
-@import "layout/main__section";
 @import "elements/icon.scss";
 @import "elements/msg";
 @import "elements/button";
 @import "elements/_search_boxes.scss";
+
 
 
 html {
