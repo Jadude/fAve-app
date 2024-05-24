@@ -40,7 +40,7 @@ git clone https://github.com/Jadude/fAve-app.git
 Navigate to the fAve project directory and then install all necessary dependencies using the npm package manager. In the terminal, type:
 
 ```
-cd fAve
+cd fAve-app
 npm install
 ```
 This will install all required packages, including React, React DOM, Sass and developer tools such as ESLint and Prettier.
