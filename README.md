@@ -24,7 +24,7 @@ save money through efficient use of products.
 
 ## Explore my app:
 
-If you want to see how my application works in action, you can check it out here: https://6650564a9880de00080e1a01--classy-custard-973f38.netlify.app/.
+If you want to see how my application works in action, you can check it out [here](https://6650564a9880de00080e1a01--classy-custard-973f38.netlify.app/).
 
 
 ## Installation instructions:
@@ -130,7 +130,7 @@ To use the Spoonacular Food API, an API key is required to authorise requests. T
 ```
 X-Spoonacular-API-Key: your_api_key
 ```
-Account on sponcalcr api can set up here: https://spoonacular.com/food-api.
+Account on sponcalcr api can set up [here](https://spoonacular.com/food-api).
 
 > [!NOTE]
 > Make sure you follow and adhere to the Spoonacular Food API usage policy to avoid access restrictions or blocking.
