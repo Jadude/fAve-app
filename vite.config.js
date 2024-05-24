@@ -6,6 +6,9 @@ const fAvePath = "src";
 
 export default defineConfig({
   root: fAvePath,
+  build: {
+    outDir: '../dist', // catalog vite
+  },
   server: {
     port: 3010,
   },
