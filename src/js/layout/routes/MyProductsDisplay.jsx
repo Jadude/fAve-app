@@ -1,7 +1,7 @@
 //ok
 
 import React, { useState, useEffect } from 'react';
-import IngredientList from "../../components/myProductsComponents/IngredientsTable.jsx";
+import IngredientTable from "../../components/myProductsComponents/IngredientsTable.jsx";
 //utilities
 import {getSavedIngredients} from "../../utilities/getSavedIngredients.jsx";
 
@@ -27,7 +27,7 @@ const MyProductsDisplay = () => {
         <main className="outlet--container">
             <section className="main__section">
             <h2>My products:</h2>
-            <IngredientList ingredients={ingredients} removeIngredient={removeIngredient} />
+            <IngredientTable ingredients={ingredients} removeIngredient={removeIngredient} />
             </section>
         </main>
     );
