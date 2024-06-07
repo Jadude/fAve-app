@@ -111,17 +111,17 @@ The Spoonacular Food API is an advanced food data management tool, offering a wi
 ### Enpoint used in application:
 
 
-*Description:*
+**Description:**
 Retrieves recipes that can be made with the specified ingredients. This endpoint is useful for finding recipes to use up items you already have in your pantry, especially those nearing their expiration date.
 
-*Query parameters:*
+**Query parameters:**
 ingredients (required): A comma-separated list of ingredients you have. For example, "apples,flour,sugar".
 number (optional): The number of recipes to be returned.
 limitLicense (optional): Whether to only show recipes with an open license (boolean).
 ranking (optional): Whether to minimize missing ingredients (1) or maximize used ingredients (2) in the recipe.
 ignorePantry (optional): Whether to ignore typical pantry items, such as salt, pepper, and water (boolean).
 
-*Expected response:*
+**Expected response:**
 A list of recipes that can be made with the provided ingredients, including details such as the recipe title, ID, used ingredients, and missing ingredients.
 
  
