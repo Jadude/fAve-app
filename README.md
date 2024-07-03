@@ -3,9 +3,7 @@
 
 fAve is a useful app that helps to effectively manage the contents of the fridge in order to use up products before their best-before date. This app
 will inform you of food products that are approaching their expiry date, and will then search and suggest recipes containing the product to use, thanks to access to a recipe database. With FAVE:
-save time on meal planning and shopping,
-minimise food waste
-save money through efficient use of products.
+save time on meal planning and shopping, minimise food waste save money through efficient use of products.
 
 **Every day, 3.5 million tonnes of food are wasted worldwide.** 
 
