@@ -13,8 +13,6 @@ save time on meal planning and shopping, minimise food waste save money through 
 
 
 
-
-
 > **The development of the application used:**
 > * SCSS
 > * React.JS
