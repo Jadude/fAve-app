@@ -20,7 +20,7 @@ save time on meal planning and shopping, minimise food waste save money through 
 
 ## Explore my app:
 
-If you want to see how my application works in action, you can check it out [here](https://6650564a9880de00080e1a01--classy-custard-973f38.netlify.app/).
+If you want to see how my application works in action, you can check it out [here]([https://6650564a9880de00080e1a01--classy-custard-973f38.netlify.app/](https://main--thefaveapp.netlify.app/)).
 
 
 ## Installation instructions:
